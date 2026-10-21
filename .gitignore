@@ -1,0 +1,6 @@
+node_modules/
+data/reviews.json
+.env
+*.log
+.DS_Store
+Thumbs.db

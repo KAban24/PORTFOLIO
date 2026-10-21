@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="KAban">
+  <defs>
+    <linearGradient id="g" x1="10" y1="8" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#39ff14"/>
+      <stop offset="1" stop-color="#00c8ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#060907"/>
+  <rect x="1" y="1" width="62" height="62" rx="13" fill="none" stroke="#39ff14" stroke-opacity=".35"/>
+  <path d="M18 14v36M18 34l20-20M18 34l22 16" fill="none" stroke="url(#g)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="48" cy="18" r="3" fill="#39ff14"/>
+</svg>

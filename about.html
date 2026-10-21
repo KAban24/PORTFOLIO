@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#060907">
+  <title data-i18n="about.title">Обо мне — KAban</title>
+  <meta name="description" data-i18n-content="about.description" content="KAban — разработчик на C++ и веб: путь от реверс-инжиниринга до системного кода, веба и кибербезопасности.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="assets/js/theme-init.js?v=6"></script>
+  <link rel="stylesheet" href="assets/css/style.css?v=6">
+</head>
+<body data-page="about">
+  <a class="skip-link" href="#main" data-i18n="ui.skip">Перейти к содержимому</a>
+  <div class="scroll-progress" aria-hidden="true"><div class="scroll-progress__bar"></div></div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="KAban">
+        <span class="brand__mark">K</span>
+        <span class="brand__text"><span class="brand__name">KAban</span><span class="brand__sub" data-i18n="brand.sub">low-level · web</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="nav-link" data-page="home" href="index.html" data-i18n="nav.home">Главная</a>
+        <a class="nav-link" data-page="projects" href="projects.html" data-i18n="nav.projects">Проекты</a>
+        <a class="nav-link" data-page="about" href="about.html" data-i18n="nav.about">Обо мне</a>
+        <a class="nav-link" data-page="reviews" href="reviews.html" data-i18n="nav.reviews">Отзывы</a>
+        <a class="nav-link" href="https://github.com/KAban24" target="_blank" rel="noopener">GitHub ↗</a>
+      </nav>
+      <div class="header-actions">
+        <div class="lang" role="group" aria-label="Language">
+          <button class="lang-btn" type="button" data-lang="ru" aria-pressed="true">RU</button>
+          <button class="lang-btn" type="button" data-lang="en" aria-pressed="false">EN</button>
+          <button class="lang-btn" type="button" data-lang="uk" aria-pressed="false">UA</button>
+        </div>
+        <button class="icon-btn theme-toggle" type="button" data-theme-toggle aria-label="Переключить тему">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+        <button class="icon-btn burger" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="Открыть меню">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <nav class="mobile-menu__nav" aria-label="Mobile navigation">
+      <a href="index.html"><span>01</span><em data-i18n="nav.home">Главная</em></a>
+      <a href="projects.html"><span>02</span><em data-i18n="nav.projects">Проекты</em></a>
+      <a href="about.html"><span>03</span><em data-i18n="nav.about">Обо мне</em></a>
+      <a href="reviews.html"><span>04</span><em data-i18n="nav.reviews">Отзывы</em></a>
+      <a href="https://github.com/KAban24" target="_blank" rel="noopener"><span>05</span><em>GitHub</em></a>
+    </nav>
+    <div class="mobile-menu__foot">
+      <span>© <span data-year>2026</span> KAban</span>
+      <div class="mobile-menu__lang">
+        <button class="lang-btn" type="button" data-lang="ru">RU</button>
+        <button class="lang-btn" type="button" data-lang="en">EN</button>
+        <button class="lang-btn" type="button" data-lang="uk">UA</button>
+      </div>
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow reveal" data-i18n="about.eyebrow">Обо мне</p>
+        <h1 class="page-title reveal" data-i18n="about.h1">ПИШУ БЛИЗКО К ЖЕЛЕЗУ. ДУМАЮ О ЛЮДЯХ.</h1>
+        <p class="page-lead reveal" data-i18n="about.lead">Я KAban — это мой псевдоним, настоящее имя оставляю за кадром. Украинец, около года пишу на C++, двигаюсь в веб и параллельно изучаю пентест и кибербезопасность. Люблю разбираться, как всё устроено под капотом, и делать интерфейсы, которыми приятно пользоваться.</p>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container about-intro">
+        <div class="prose reveal">
+          <h2 data-i18n="about.bioTitle">КАК Я ПРИШЁЛ К КОДУ</h2>
+          <p data-i18n="about.p1">Начинал с реверс-инжиниринга: разбирался, как устроены игры и их защита, читал чужой код. Читы так и не написал, но реверс стал сильной стороной — научился читать незнакомый код и понимать, что происходит под капотом. Потом перешёл на C++ — и это сразу затянуло. Вместо готовых решений хотелось понимать, что происходит с памятью, как работают указатели, почему одна реализация быстрее другой и что именно делает процессор. Около года я сознательно копаю язык глубже, а не просто собираю проекты из примеров.</p>
+          <p data-i18n="about.p2">Дальше появились графика и интерфейсы: DirectX 11, Win32 API, Dear ImGui. Так родились GRaO.mc, Cyber Snake DX и BestPad — проекты, где пришлось столкнуться с рендером, SIMD, системным аудио, драйверами и оптимизацией. Ошибки в таких вещах не прощают невнимательности, поэтому я быстро привык проверять всё на реальных сценариях.</p>
+          <p data-i18n="about.p3">Сейчас мой следующий шаг — веб: фронтенд и бэкенд. Параллельно изучаю пентест и кибербезопасность. Мне нравится соединять низкоуровневое понимание производительности с нормальным пользовательским опытом: быстрые интерфейсы, чистая вёрстка, продуманная логика и код, который легко поддерживать.</p>
+          <a class="btn btn--ghost" href="projects.html"><span data-i18n="common.viewAll">Все проекты</span><span class="btn__icon" aria-hidden="true">→</span></a>
+        </div>
+        <div class="reveal">
+          <div class="about-card">
+            <div class="about-monogram" aria-hidden="true">K</div>
+            <div class="about-card__caption"><span>LOW-LEVEL · WEB</span><span>2026</span></div>
+            <dl class="fact-list">
+              <div class="fact"><dt data-i18n="about.factLocationLabel">Локация</dt><dd data-i18n="about.factLocation">Украина</dd></div>
+              <div class="fact"><dt data-i18n="about.factExperienceLabel">Опыт</dt><dd data-i18n="about.factExperience">~1 год с C++</dd></div>
+              <div class="fact"><dt data-i18n="about.factFocusLabel">Фокус</dt><dd data-i18n="about.factFocus">C++ · Web · Security</dd></div>
+              <div class="fact"><dt data-i18n="about.factFormatLabel">Формат</dt><dd data-i18n="about.factFormat">Удалённо · проектная работа</dd></div>
+              <div class="fact"><dt data-i18n="about.factLanguagesLabel">Языки</dt><dd>RU · EN · UK</dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight" aria-labelledby="stackTitle">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-head__text">
+            <p class="eyebrow reveal" data-i18n="about.stackEyebrow">Инструменты</p>
+            <h2 class="section-title reveal" id="stackTitle" data-i18n="about.stackTitle">СТЕК БЕЗ МАГИИ</h2>
+          </div>
+          <p class="section-desc reveal" data-i18n="about.stackDesc">Только то, с чем реально работал или сейчас учусь. Без выдуманных технологий и строчек «знаю на 99%».</p>
+        </div>
+        <div class="stack-groups">
+          <div class="stack-group reveal">
+            <p class="stack-group__title" data-i18n="about.stackCpp">C++ / Systems</p>
+            <div class="stack-list">
+              <span>C++20</span><span>STL</span><span>Win32 API</span><span>DirectX 11</span><span>Dear ImGui</span><span>AVX2 / SIMD</span><span>CMake</span><span>MSVC</span><span>Git</span>
+            </div>
+          </div>
+          <div class="stack-group reveal">
+            <p class="stack-group__title" data-i18n="about.stackWeb">Web</p>
+            <div class="stack-list">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Adaptive</span><span>Accessibility</span><span>Animations</span><span>Vanilla JS</span><span>Git</span>
+            </div>
+          </div>
+          <div class="stack-group reveal">
+            <p class="stack-group__title" data-i18n="about.stackTools">Tools / Libraries</p>
+            <div class="stack-list">
+              <span>Visual Studio</span><span>CLion</span><span>PowerShell</span><span>GLFW</span><span>OpenGL</span><span>miniaudio</span><span>tinyexpr</span><span>JSON</span>
+            </div>
+          </div>
+          <div class="stack-group reveal">
+            <p class="stack-group__title" data-i18n="about.stackSecurity">Security / Reverse</p>
+            <div class="stack-list">
+              <span>Reverse Engineering</span><span>Pentest basics</span><span>Networking</span><span>Linux</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight" aria-labelledby="timelineTitle">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-head__text">
+            <p class="eyebrow reveal" data-i18n="about.timelineEyebrow">Хронология</p>
+            <h2 class="section-title reveal" id="timelineTitle" data-i18n="about.timelineTitle">КОРОТКО О ПУТИ</h2>
+          </div>
+        </div>
+        <div class="timeline reveal">
+          <div class="timeline-item">
+            <p class="timeline-item__date" data-i18n="about.t1date">2025 · реверс</p>
+            <h3 class="timeline-item__title" data-i18n="about.t1title">Реверс-инжиниринг</h3>
+            <p class="timeline-item__text" data-i18n="about.t1text">Разбирал устройство игр и защит, читал чужой код. Читы не писал, но научился понимать, как всё работает под капотом.</p>
+          </div>
+          <div class="timeline-item">
+            <p class="timeline-item__date" data-i18n="about.t2date">2025 · старт</p>
+            <h3 class="timeline-item__title" data-i18n="about.t2title">Первый C++ и первые ошибки</h3>
+            <p class="timeline-item__text" data-i18n="about.t2text">Разбираюсь с синтаксисом, памятью, указателями и сборкой. Первые небольшие программы и много практики.</p>
+          </div>
+          <div class="timeline-item">
+            <p class="timeline-item__date" data-i18n="about.t3date">2025–2026 · графика</p>
+            <h3 class="timeline-item__title" data-i18n="about.t3title">DirectX 11 и Dear ImGui</h3>
+            <p class="timeline-item__text" data-i18n="about.t3text">Учусь рисовать интерфейсы и игровые сцены, работать с буферами, шейдерами и кадровым временем.</p>
+          </div>
+          <div class="timeline-item">
+            <p class="timeline-item__date" data-i18n="about.t4date">2026 · системы</p>
+            <h3 class="timeline-item__title" data-i18n="about.t4title">Win32, аудио и драйверы</h3>
+            <p class="timeline-item__text" data-i18n="about.t4text">BestPad в разработке: APO-драйвер, маршрутизация звука, горячие клавиши, работа с Windows API и реальным железом.</p>
+          </div>
+          <div class="timeline-item">
+            <p class="timeline-item__date" data-i18n="about.t5date">2026 · веб и безопасность</p>
+            <h3 class="timeline-item__title" data-i18n="about.t5title">Веб + пентест</h3>
+            <p class="timeline-item__text" data-i18n="about.t5text">Перехожу во фронтенд и бэкенд, параллельно изучаю пентест и кибербезопасность.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight" aria-labelledby="principlesTitle">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-head__text">
+            <p class="eyebrow reveal" data-i18n="about.principlesEyebrow">Принципы</p>
+            <h2 class="section-title reveal" id="principlesTitle" data-i18n="about.principlesTitle">КАК Я РАБОТАЮ</h2>
+          </div>
+          <p class="section-desc reveal" data-i18n="about.principlesDesc">Четыре правила, которые помогают не делать вид, что всё под контролем, когда это не так.</p>
+        </div>
+        <div class="principles">
+          <article class="principle reveal">
+            <span class="principle__num">01</span>
+            <div><h3 class="principle__title" data-i18n="about.pr1title">Сначала понять</h3><p class="principle__text" data-i18n="about.pr1text">Разбираюсь в задаче и ограничениях, а потом пишу код. Лучше задать лишний вопрос, чем переделывать готовое.</p></div>
+          </article>
+          <article class="principle reveal">
+            <span class="principle__num">02</span>
+            <div><h3 class="principle__title" data-i18n="about.pr2title">Простота важнее выпендрёжа</h3><p class="principle__text" data-i18n="about.pr2text">Понятное решение лучше умного. Код должен читаться через месяц — мной и вами.</p></div>
+          </article>
+          <article class="principle reveal">
+            <span class="principle__num">03</span>
+            <div><h3 class="principle__title" data-i18n="about.pr3title">Проверять на реальных сценариях</h3><p class="principle__text" data-i18n="about.pr3text">Тесты, сборка, разные экраны и реальные данные. Красиво в теории — недостаточно.</p></div>
+          </article>
+          <article class="principle reveal">
+            <span class="principle__num">04</span>
+            <div><h3 class="principle__title" data-i18n="about.pr4title">Говорить честно</h3><p class="principle__text" data-i18n="about.pr4text">Если что-то идёт не по плану — скажу сразу. Если результат не понравился — верну деньги.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight" aria-labelledby="nextTitle">
+      <div class="container">
+        <div class="guarantee reveal">
+          <div>
+            <p class="eyebrow" data-i18n="about.nextEyebrow">Куда двигаюсь</p>
+            <h2 class="guarantee__title" id="nextTitle" data-i18n="about.nextTitle">C++ ОСТАЁТСЯ. ВЕБ И БЕЗОПАСНОСТЬ ДАЛЬШЕ.</h2>
+            <p class="guarantee__text" data-i18n="about.nextText">Хочу быть разработчиком, который одинаково уверенно чувствует себя в системном коде, веб-продукте и безопасности. C++ даёт понимание производительности и архитектуры, веб — продуктовое мышление, а пентест — взгляд на код глазами атакующего.</p>
+            <div class="project-actions">
+              <a class="btn btn--primary" href="https://t.me/kaban2402" target="_blank" rel="noopener"><span data-i18n="home.ctaTelegram">Написать в Telegram</span><span class="btn__icon" aria-hidden="true">↗</span></a>
+              <a class="btn btn--ghost" href="projects.html"><span data-i18n="home.ctaProjects">Смотреть проекты</span><span class="btn__icon" aria-hidden="true">→</span></a>
+            </div>
+          </div>
+          <div class="guarantee__list">
+            <div class="guarantee-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>
+              <div><strong data-i18n="about.next1title">Фронтенд</strong><span data-i18n="about.next1text">Интерфейсы, доступность, анимации и внимание к деталям.</span></div>
+            </div>
+            <div class="guarantee-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>
+              <div><strong data-i18n="about.next2title">Бэкенд</strong><span data-i18n="about.next2text">API, базы данных, серверная логика и архитектура.</span></div>
+            </div>
+            <div class="guarantee-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>
+              <div><strong data-i18n="about.next3title">Безопасность</strong><span data-i18n="about.next3text">Реверс-инжиниринг, основы пентеста и понимание, как защищать приложения.</span></div>
+            </div>
+            <div class="guarantee-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>
+              <div><strong data-i18n="about.next4title">Гарантии</strong><span data-i18n="about.next4text">Возврат средств, если результат не подошёл, и поддержка после сдачи.</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div>
+        <a class="brand" href="index.html" aria-label="KAban">
+          <span class="brand__mark">K</span>
+          <span class="brand__text"><span class="brand__name">KAban</span><span class="brand__sub" data-i18n="brand.sub">low-level · web</span></span>
+        </a>
+        <p class="footer-brand__text" data-i18n="footer.tagline">Низкоуровневый разработчик на C++ и веб. Делаю быстрые приложения, аккуратные интерфейсы и проекты, которые живут после сдачи.</p>
+        <span class="footer-brand__status"><span class="status-dot" aria-hidden="true"></span><span data-i18n="footer.status">Открыт к новым проектам</span></span>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <p class="footer-col__title" data-i18n="footer.nav">Навигация</p>
+          <a href="index.html" data-i18n="nav.home">Главная</a>
+          <a href="projects.html" data-i18n="nav.projects">Проекты</a>
+          <a href="about.html" data-i18n="nav.about">Обо мне</a>
+          <a href="reviews.html" data-i18n="nav.reviews">Отзывы</a>
+        </div>
+        <div class="footer-col">
+          <p class="footer-col__title" data-i18n="footer.projects">Проекты</p>
+          <a href="minesweeper.html">GRaO.mc</a>
+          <a href="snake.html">Cyber Snake DX</a>
+          <a href="bestpad.html">BestPad</a>
+          <a href="https://github.com/KAban24/gostEvent_plagin" target="_blank" rel="noopener">gostEvent_plagin</a>
+        </div>
+        <div class="footer-col">
+          <p class="footer-col__title" data-i18n="footer.contact">Связь</p>
+          <a href="https://github.com/KAban24" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://t.me/kaban2402" target="_blank" rel="noopener">Telegram · @kaban2402</a>
+          <span>Discord · kaban2402</span>
+          <a href="https://github.com/KAban24?tab=repositories" target="_blank" rel="noopener" data-i18n="footer.repos">Все репозитории</a>
+          <span data-i18n="footer.remote">Удалённо · Украина</span>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span data-year>2026</span> KAban</span>
+      <div class="footer-bottom__links">
+        <span data-i18n="footer.built">Сделано руками: HTML, CSS, JS</span>
+        <button class="to-top" type="button" data-to-top><span data-i18n="footer.backTop">Наверх</span><span aria-hidden="true">↑</span></button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/i18n.js?v=6"></script>
+  <script src="assets/js/app.js?v=6"></script>
+</body>
+</html>

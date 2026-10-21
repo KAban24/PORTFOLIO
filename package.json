@@ -1,0 +1,20 @@
+{
+  "name": "kaban-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KAban24/portfolio.git"
+  },
+  "homepage": "https://github.com/KAban24/portfolio",
+  "bugs": {
+    "url": "https://github.com/KAban24/portfolio/issues"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
